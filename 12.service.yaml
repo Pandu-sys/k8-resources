@@ -10,12 +10,12 @@ spec:
 # service uses the below labels to select the pods
   selector:
     project: roboshop
-    tier: frontned
-    component: frontned
+    tier: frontend
+    component: frontend
   ports:
-    protocol: TCP
-    port: 80 # service port
-    targetPort: 80 # container port
+   - protocol: TCP
+     port: 80 # service port
+     targetPort: 80 # container port
 ---
 apiVersion: v1
 kind: Pod
