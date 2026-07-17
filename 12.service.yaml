@@ -24,8 +24,8 @@ metadata:
   labels:
     project: roboshop
     environment: dev
-    component: frontned
-    tier: frontned
+    component: frontend
+    tier: frontend
 spec:
   containers:
   - name: nginx # container
